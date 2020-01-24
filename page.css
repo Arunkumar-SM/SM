@@ -1,0 +1,85 @@
+#top{
+display:flex;
+	height:20%;
+	width:o auto;
+	  background-color: pink;
+	
+}
+#mid1{
+	height:60%;
+	width:o auto;
+	  background-color: yellow;
+	
+}
+#mid2{
+	height:30%;
+width:o auto;
+	  background-color: green;
+	
+}
+#mid3{
+	height:40%;
+	width:o auto;
+	  background-color: pink;
+	
+}
+#bottom{
+	height:40%;
+	width:o auto;
+	  background-color: red;
+	
+}
+
+.s1{
+	height:100%;
+	width:20%;
+	background-color: blue;
+	    justify-content:center;
+		display:flex;
+align-items:center;
+
+color:brown;
+		
+}
+#right{
+	height:100%;
+	width:80%;
+	background-color:green;
+	  
+		display:flex;
+
+  justify-content: center;
+align-items:center;
+}
+
+ul li
+{
+
+display:inline;
+padding:20px;
+
+}
+ul li:hover{
+ color:Azure;
+background-color:white;
+
+}
+.3rd
+{
+color:green;
+background-color:pink;
+
+}
+.card
+{
+background-color:white;
+width:20%;
+height:20%;
+}
+
+
+
+
+
+
+

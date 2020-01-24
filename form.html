@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Basic data </title>
+<link href="Style.css" rel="stylesheet">
+
+</head>
+
+<body  bgcolor="pink">
+<center>
+<h2> Application Form</h2>
+</center>
+
+<center>
+<form  style ="background-color:yellow">
+<label for ="name">Name</label>
+
+<input type ="text" name="name"id="name"autofocus > <br>
+<label for ="Age">Age</label>
+<input type="number" name="age" id="age" min="1" max="100"><br>
+<label for ="Email">Email</label>
+<input type="Email" name="Email" id ="email"> <br>
+<label for ="Password">Password</label>
+<input type="password" name="password" id="password"><br>
+
+<label for="male" style ="color:green">Male </label>
+  <input type="radio" name="gender" id="male" value=" Male" checked="checked"><br>
+  
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="Female "> <br>
+  
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other" value="other "><br>
+   
+   <label for="color">Red</label>
+  <input type="checkbox" name="color" id="red" value ="red" checked><br>
+   
+   <label for="color">Green</label>
+  <input type="checkbox" name="color" id="green" value="green"><br>
+  
+  <label for="color">Blue</label>
+   <input type="checkbox"   name="color" id="blue" value="blue"><br>
+  
+  <label for="color">Other Color</label>
+  <input type="color" id="Color" value="color"><br>
+ 
+ <button type="button" id="btn" onclick="res()" >Submit</button><br>
+ 
+ 
+ 
+ <ul>
+  <li></li>
+</ul>
+  
+</form>
+</center>
+
+
+<script src="form.js">
+</script>
+</body>
+
+</html>
+

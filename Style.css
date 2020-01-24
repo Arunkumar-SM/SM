@@ -1,0 +1,23 @@
+
+label{
+color:red;
+}
+#btn
+{
+	padding:20px;
+
+}
+form
+{
+	margin: 0 auto;
+	border:10px solid brown;
+	width:200px;
+	border-radius:25px;
+
+}
+ul
+{
+	list-style-image:url('bike.jpg');
+	    justify-content: center;
+    display: inline-block;
+}
