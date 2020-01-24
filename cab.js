@@ -13,7 +13,7 @@ function  Amount()
 		}
 	}
 	var pay=r*cost;
-	document.getElementById("pay").innerHTML=pay;
+//	document.getElementById("pay").innerHTML=pay;
 }
 
 	
